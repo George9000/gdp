@@ -1,0 +1,12 @@
+name = "gdp"
+uuid = "e40e2cb4-9354-40d4-9f7d-66069cade59b"
+authors = ["prem "]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+MethodChains = "8273b447-2325-479c-bd8f-672236b360ca"
+Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
+TableTransforms = "0d432bfd-3ee1-4ac1-886a-39f05cc69a3e"
