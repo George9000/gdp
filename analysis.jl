@@ -2,7 +2,8 @@
 # These values will be converted to missings
 
 using gdp, DataFrames, MethodChains
-# for "./data" substitute whatever directory holds the gdp data
+# for "./data" in the line below,
+# substitute the directory which holds the gdp data
 const filenames = @mc readdir(abspath("./data"), join = true).{
     it[occursin.(r"\.csv$", it)]
 }

@@ -7,6 +7,7 @@ export readgdps
     readgdps(paths::Vector{String}; kwargs...)
 
 Read a list of state gdp csvs, concatenate together, dump into one dataframe.
+Do some initial dataframe processing.
 """
 function readgdps(paths::Vector{String}; kwargs...)
     df = CSV.read(paths, DataFrame; kwargs...)
